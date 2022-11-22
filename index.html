@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lagenda Arama Sdn. Bhd.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+      *,* * {
+        font-family: 'Vollkorn', serif;
+      }
+    </style>
+  </head>
+  <body style="background-color:lightsteelblue">
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <script type="text/javascript">
+
+      let lastsender = null;
+      function o(sender){
+        console.log('o');
+          if(lastsender!=null){
+              lastsender.style.cursor=null;
+              lastsender.style.backgroundColor='white'
+          }
+          if(sender!=null){
+            lastsender = sender;
+            lastsender.style.cursor='pointer';
+            lastsender.style.backgroundColor='rgb(156, 199, 177)'
+          }
+      }
+
+
+ function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+  } 
+      
+      </script>  
+      
+  </body>
+</html>
