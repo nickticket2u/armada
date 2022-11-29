@@ -8,79 +8,137 @@
     let projects = [
         [
         {
-            "id":"0",
+            "id":"1",
             "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
-            "image":"/src/assets/p1.jpg",
+            "image":"/src/assets/r1.jpg",
             "pemaju":"SETIA AWAN HOLDINGS SDN BHD",
             "jenis":"TERES 1 TINGKAT",
             "lokasi":"PERAK"
         },  
         {
-            "id":"1",
-            "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
-            "image":"/src/assets/p1.jpg",
-            "pemaju":"SETIA AWAN HOLDINGS SDN BHD",
-            "jenis":"TERES 1 TINGKAT",
-            "lokasi":"PERAK"
-        },
-        {
             "id":"2",
             "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
-            "image":"/src/assets/p1.jpg",
+            "image":"/src/assets/r2.jpg",
             "pemaju":"SETIA AWAN HOLDINGS SDN BHD",
-            "jenis":"TERES 1 TINGKAT",
+            "jenis":"SEMI-D 1 TINGKAT",
+            "lokasi":"PERAK"
+        },
+        {
+            "id":"3",
+            "title":"TAMAN MULIA, PERAK",
+            "image":"/src/assets/r3.jpg",
+            "pemaju":"SETIA AWAN HOLDINGS SDN BHD",
+            "jenis":"TERES 2 TINGKAT",
             "lokasi":"PERAK"
         }],
         [
         {
-            "id":"3",
-            "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
-            "image":"/src/assets/p1.jpg",
-            "pemaju":"SETIA AWAN HOLDINGS SDN BHD",
-            "jenis":"TERES 1 TINGKAT",
-            "lokasi":"PERAK"
-        },
-        {
             "id":"4",
             "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
-            "image":"/src/assets/p1.jpg",
-            "pemaju":"SETIA AWAN HOLDINGS SDN BHD",
-            "jenis":"TERES 1 TINGKAT",
+            "image":"/src/assets/r4.jpg",
+            "pemaju":"YNH PROPERTY BERHAD",
+            "jenis":"PANGSAPURI",
             "lokasi":"PERAK"
         },
         {
             "id":"5",
             "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
-            "image":"/src/assets/p1.jpg",
-            "pemaju":"SETIA AWAN HOLDINGS SDN BHD",
-            "jenis":"TERES 1 TINGKAT",
-            "lokasi":"PERAK"
+            "image":"/src/assets/r5.jpg",
+            "pemaju":"IKATAN INTRA SDN BHD",
+            "jenis":"BANGLO 1 TINGKAT",
+            "lokasi":"KETEREH, KELANTAN"
+        },
+        {
+            "id":"6",
+            "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
+            "image":"/src/assets/r6.jpg",
+            "pemaju":"IKATAN INTRA SDN BHD",
+            "jenis":"SEMI-D 1 TINGKAT SETENGAH",
+            "lokasi":"GUA MUSANG, KELANTAN"
         }],
         [
         {
-            "id":"3",
+            "id":"7",
             "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
-            "image":"/src/assets/p1.jpg",
+            "image":"/src/assets/r7.jpg",
+            "pemaju":"IKATAN INTRA SDN BHD",
+            "jenis":"BANGLO 1 TINGKAT",
+            "lokasi":"PASIR PUTEH, KELANTAN"
+        },
+        {
+            "id":"8",
+            "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
+            "image":"/src/assets/r8.jpg",
+            "pemaju":"IKATAN INTRA SDN BHD",
+            "jenis":"BANGLO 1 TINGKAT",
+            "lokasi":"KOTA BHARU, KELANTAN"
+        },
+        {
+            "id":"9",
+            "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
+            "image":"/src/assets/r9.jpg",
+            "pemaju":"NORTH ELEGANCE PROPERTY SDN BHD",
+            "jenis":"SEMI-D 1 TINGKAT",
+            "lokasi":"PORT DICKSON, NEGERI SEMBILAN"
+        }],
+        [
+        {
+            "id":"10",
+            "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
+            "image":"/src/assets/r10.jpg",
+            "pemaju":"NORTH ELEGANCE PROPERTY SDN BHD",
+            "jenis":"TERES 1 TINGKAT",
+            "lokasi":"PORT DICKSON, NEGERI SEMBILAN"
+        },
+        {
+            "id":"11",
+            "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
+            "image":"/src/assets/r11.jpg",
             "pemaju":"SETIA AWAN HOLDINGS SDN BHD",
             "jenis":"TERES 1 TINGKAT",
             "lokasi":"PERAK"
         },
         {
-            "id":"4",
+            "id":"12",
             "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
-            "image":"/src/assets/p1.jpg",
-            "pemaju":"SETIA AWAN HOLDINGS SDN BHD",
-            "jenis":"TERES 1 TINGKAT",
-            "lokasi":"PERAK"
+            "image":"/src/assets/r12.jpg",
+            "pemaju":"PASIR DELIMA SDN BHD",
+            "jenis":"SEMI-D 1 TINGKAT",
+            "lokasi":"DUNGUN, TERENGGANU"
+        }] ,
+        [
+        {
+            "id":"13",
+            "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
+            "image":"/src/assets/r13.jpg",
+            "pemaju":"PASIR DELIMA SDN BHD",
+            "jenis":"SEMI-D 1 TINGKAT",
+            "lokasi":"BESUT, TERENGGANU"
         },
         {
-            "id":"5",
+            "id":"14",
             "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
-            "image":"/src/assets/p1.jpg",
-            "pemaju":"SETIA AWAN HOLDINGS SDN BHD",
+            "image":"/src/assets/r14.jpg",
+            "pemaju":"PASIR DELIMA SDN BHD",
             "jenis":"TERES 1 TINGKAT",
-            "lokasi":"PERAK"
-        }]                                                                                                  
+            "lokasi":"BESUT, TERENGGANU"
+        },
+        {
+            "id":"15",
+            "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
+            "image":"/src/assets/r15.jpg",
+            "pemaju":"PASIR DELIMA SDN BHD",
+            "jenis":"BANGLO 1 TINGKAT",
+            "lokasi":"BESUT, TERENGGANU"
+        }]  ,
+        [ {
+            "id":"16",
+            "title":"BANDAR BARU SETIA AWAN PERDANA, PERAK",
+            "image":"/src/assets/r16.jpg",
+            "pemaju":"IKATAN INTRA SDN BHD",
+            "jenis":"TERES 1 TINGKAT",
+            "lokasi":"BACHOK, KELANTAN"
+        }]                                                                                                   
     ]
 
     let selected = null;
@@ -108,21 +166,18 @@
 {#each projects as pp,index2}
 <div class="columns">
 {#each pp as p,index}
-<div class="column">
+<div class="column is-one-third ">
 <div class="card">
-    <header class="card-header">
-        <p class="card-header-title">
-            {p.title}
-          </p>
-    </header>
     <div class="card-image">
       <figure class="image is-4by3">
         <img src={p.image} alt={p.title}/>
       </figure>
     </div>
     <div class="card-content">
-        <div class="content">
-            {p.jenis}
+        <div class="content"><small>
+            {p.pemaju}<br/>
+            {p.jenis}<br/>
+            {p.lokasi}</small>
         </div>
       </div>    
 </div>

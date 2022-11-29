@@ -17,7 +17,7 @@
 <Menu/>  
 <div style="margin-top:50px">
   {#if page=='' || page == null}
-  <Profil/>
+  <Projects/>
   {/if}  
 {#if page=='1'}
 <Projects/>

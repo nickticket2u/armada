@@ -59,7 +59,7 @@
 {#each projects as pp,index2}
 <div class="columns">
 {#each pp as p,index}
-<div class="column">
+<div class="column is-one-third">
 <div class="card" >
 
     <div class="card-image">

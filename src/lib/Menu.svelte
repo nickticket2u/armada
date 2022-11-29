@@ -12,7 +12,7 @@
 
 <nav class="navbar  is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">
+      <a class="navbar-item" href="/?page=1">
         <img src={logotop} width="112" height="28"/>
       </a>
   
@@ -66,7 +66,7 @@
             Rakan Strategik (PEMAJU)
           </a>            
 
-        <a class="navbar-item" href="/">
+        <a class="navbar-item" href="/?page=6">
           Profil Syarikat
         </a>
 

@@ -11,6 +11,25 @@
             "title":"TAMAN DELIMA SAUJANA, TEMERLOH, PAHANG",
             "image":"/src/assets/p1.jpg",
             "image2":"/src/assets/l1.jpg",
+            "content":`
+<p class="title is-5">GDV<br/>
+FASA 1 : RM 6,203,163.00<br/>
+FASA 2 : RM 41,400,000.00<br/>
+<br/>
+PEMAJU : PAN ASSETS HOLDINGS SDN. 
+BHD
+</p>
+<b>
+    JENIS PEMBANGUNAN
+    </b><br/> <b>FASA 1</b><br/>
+ • 20 unit rumah berkembar 1 tingkat 
+ <br/><br/>
+ <b>FASA 2 & 3</b><br/>
+ • 70 unit rumah berkembar setingkat <br/>• 74 unit teres 2 tingkat
+ <br/><br/><b>
+   STATUS TANAH
+    </b><br/>
+Leasehold Rezab Melayu`,
             "location":`Pahang adalah negeri terbesar di Semenanjung Malaysia.
 Hampir dua per tiga dari negeri ini masih diselubungi oleh hutan
 hujan tropika yang menghijau, menjadikannya wilayah yang
@@ -35,6 +54,19 @@ terdapat di Temerloh ialah Hospital, Sekolah, Bank, dan lain-lain.
             "title":"TAMAN TEROH ANGGUN, KARAK",
             "image":"/src/assets/p2.jpg",
             "image2":"/src/assets/l2.jpg",
+            "content":`
+<p class="title is-5">GDV : RM 8,916,000.00
+<br/>
+PEMAJU : ANGGUN ARMADA SDN 
+BHD
+</p>
+<b>
+    JENIS PEMBANGUNAN
+    </b><br/> 2 unit rumah sesebuah 1 Tingkat, • 28 unit rumah berkembar 1 tingkat
+ <br/><br/><b>
+   STATUS TANAH
+    </b><br/>
+    Freehold Rezab Melayu`,            
             "location":`Karak juga merupakan kawasan yang sangat strategik untuk
 didirikan tapak perumahan kerana kawasannya tidak jauh
 dengan Ibu Negara iaitu Kuala Lumpur. Karak merupakan
@@ -50,6 +82,57 @@ di bandar ini untuk ke selatan iaitu Lebuhraya Karak Selatan`
             "title":"KALUMPANG,HULU SELANGOR, SELANGOR",
             "image":"/src/assets/p3.jpg",
             "image2":"/src/assets/l3.jpg",
+            "content":`
+<p class="title is-5">GDV : RM 137,638,800
+<br/>
+JUMLAH : 403 UNIT
+<br/>
+PEMAJU : ANGGUN ARMADA SDN 
+BHD
+</p>
+<b>
+    JENIS PEMBANGUNAN<br/> 
+    </b><br/> <b>FASA 1</b><br/>
+ 
+• 3 Unit Rumah Sesebuah<br/>
+• 14 unit Kedai Pejabat 2 Tingkat<br/>
+• 19 Unit Rumah Selangorku / Teres 2 
+Tingkat<br/>
+• 71 Unit Rumah Selangorku / Teres 1 
+Tingkat<br/>
+• Tapak Gaerai / TLK
+
+<br/> <b>STATUS TANAH</b><br/>
+Freehold Open Title<br/>
+ <br/>
+
+
+ <b>FASA 2</b><br/>
+ 
+ • 78 unit Rumah Teres 2 
+Tingkat<br/>
+• 52 Unit Rumah Teres 1 
+Tingkat<br/>
+• Surau<br/>
+• TNB<br/>
+
+ <b>STATUS TANAH</b><br/>
+Freehold Rezab Melayu<br/>
+ <br/>
+
+
+ <b>FASA 3</b><br/>
+ 
+ • 70 Unit Rumah Teres 2 
+Tingkat<br/>
+• 110 Unit Rumah Teres 1 
+Tingkat<br/>
+
+ <b>STATUS TANAH</b><br/>
+Freehold Rezab Melayu<br/>
+ <br/>
+
+ `,            
             "location":`Kalumpang merupakan salah satu mukim yang terdapat dalam
 daerah Hulu Selangor. Pekan Kalumpang terletak di tepi jalan raya
 antara Kuala Lumpur - Ipoh pada batu 46, dimana kedudukan yang 
@@ -83,7 +166,11 @@ dengan tarikan pelancongan amat sesuai sekali`
     }
 
 </script>
+<div class="title is-4">
 
+    PEMBANGUNAN TERKINI
+    
+    </div>
 {#if selected==null}
 {#each projects as pp,index2}
 <div class="columns">
@@ -121,8 +208,8 @@ dengan tarikan pelancongan amat sesuai sekali`
         <div class="column is-half">
             <img src={selected.image} alt={selected.title}/>
         </div>
-        <div class="column is-half">
-            Lorem Ipsum
+        <div class="column is-half" style="text-align:left">
+            {@html selected.content}
         </div>        
     </div>
    
