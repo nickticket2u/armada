@@ -86,4 +86,50 @@ Perkhidmatan konsultasi yang ditawarkan adalah merangkumi aspek-aspek perundinga
     <img src="/src/assets/ceo.jpg"/>
 </div>
 
-</div></div>
+</div>
+
+
+
+<div class="columns">
+    <div class="column">
+        <p class="title is-4">MISI</p>        
+        <div class="content" style="text-align:left" >
+
+            Komited untuk memastikan pemajuan hartanah
+            dan pembinaan infrastruktur adalah berkualiti
+            dan menepati jadual.
+            Bertanggungjawab membina rumah yang bermutu
+            dan terbaik kepada pembeli ke arah
+            merealisasikan visi syarikat sebagai pemaju
+            hartanah yang terkemuka.
+            Menjadi pemaju yang terbaik kepada pelanggan
+            dengan menawarkan hartanah kediaman dan
+            komersil yang berpatutan dan berkualiti tinggi.
+            Melaksanakan projek yang diamanahkan dengan
+            cekap dan cemerlang demi memenuhi kehendak
+            pelanggan
+
+    </div>
+    
+</div>
+
+<div class="column">
+    <p class="title is-4">VISI</p>        
+    <div class="content" style="text-align:left" >
+        Menjadi pemangkin kepada pembangunan
+        hartanah dan pemasaran melalui skim pemilikan
+        perumahan yang fleksibel.
+        Memacu keupayaan prospek untuk mendapat nilai
+        pelaburan yang setanding dengan nilai hartanah
+        semasa.
+        Menjadi pemaju dan perunding utama dalam
+        setiap urusniaga melibatkan sektor pembinaan
+        dan perkhidmatan
+
+</div>
+
+</div>
+
+</div>
+
+</div>
