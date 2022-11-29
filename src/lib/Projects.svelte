@@ -5,7 +5,7 @@
 
 <script>
 
-    let projects = [
+    let projects = [[
         {
             "id":"0",
             "title":"TAMAN DELIMA SAUJANA, TEMERLOH, PAHANG",
@@ -65,7 +65,7 @@ cintakan kedamaian.
 Oleh yang demikian, pembinaan perumahan yang berdekatan
 dengan tarikan pelancongan amat sesuai sekali`
         }                                                                      
-    ]
+    ]]
 
     let selected = null;
     const more = (sender)=>{
@@ -85,8 +85,10 @@ dengan tarikan pelancongan amat sesuai sekali`
 </script>
 
 {#if selected==null}
-{#each projects as p,index}
-
+{#each projects as pp,index2}
+<div class="columns">
+{#each pp as p, index}
+<div class="column">
 <div class="card" on:click={()=>{more(p)}} style="margin-bottom:10px;margin-top:10px;" ontouchcancel="o()" ontouchend="o()" ontouchstart="o(this)" onmouseover="o(this)" onmouseout="o()">
     <header class="card-header">
         <p class="card-header-title">
@@ -104,7 +106,9 @@ dengan tarikan pelancongan amat sesuai sekali`
         </div>
       </div>    
 </div>
-
+</div>
+{/each}
+</div>
 {/each}
 {/if}
 

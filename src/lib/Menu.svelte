@@ -2,10 +2,11 @@
     let logotop = '/src/assets/logotop.jpg'  
     let menuActive = false;
     let menuClass = "navbar-menu";
+    
     const menuToggle = ()=>{
       menuActive = !menuActive;
     }
-  
+ 
     $:menuClass=menuActive?"navbar-menu is-active":"navbar-menu";
 </script>
 
@@ -25,24 +26,43 @@
     <div id="navbarBasicExample" class={menuClass} >
       <div class="navbar-start">
   
-        <a class="navbar-item" href="/">
-            Pembangunan Terkini
+
+        <div class="navbar-item has-dropdown is-hidden-mobile is-hoverable">
+          <a class="navbar-link" >
+            Projek
           </a>
+            <div class="navbar-dropdown">
+            <a class="navbar-item" href="/?page=1">
+              Pembangunan Terkini
+            </a>
+            <a class="navbar-item" href="/?page=2">
+              Projek Siap Dibina
+            </a>
+            <a class="navbar-item" href="/?page=3">
+              Pembinaan Mampu Milik
+            </a>
+            <a class="navbar-item" href="/?page=4">
+              Pembinaan Rumah Sewa
+            </a>
+          </div>
+        </div>
 
 
-          <a class="navbar-item" href="/">
-            Projek Siap Dibina
-          </a>
-
-          <a class="navbar-item" href="/">
-            Pembinaan Mampu Milik
-          </a>      
+        <a class="navbar-item is-hidden-tablet" href="/?page=1">
+          Pembangunan Terkini
+        </a>
+        <a class="navbar-item is-hidden-tablet" href="/?page=2">
+          Projek Siap Dibina
+        </a>
+        <a class="navbar-item is-hidden-tablet" href="/?page=3">
+          Pembinaan Mampu Milik
+        </a>
+        <a class="navbar-item is-hidden-tablet" href="/?page=4">
+          Pembinaan Rumah Sewa
+        </a>
+       
           
-          <a class="navbar-item" href="/">
-            Pembinaan Rumah Sewa
-          </a>   
-          
-          <a class="navbar-item" href="/">
+          <a class="navbar-item" href="/?page=5">
             Rakan Strategik (PEMAJU)
           </a>            
 
