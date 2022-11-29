@@ -70,7 +70,7 @@
           Profil Syarikat
         </a>
 
-        <a class="navbar-item">
+        <a class="navbar-item" href="/?page=7">
            Hubungi Kami
           </a>        
   

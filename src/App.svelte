@@ -5,6 +5,7 @@
   import Rakan from './lib/Rakan.svelte'
   import Siap from './lib/Siap.svelte'
   import Mampu from './lib/Mampu.svelte'
+  import Hubung from './lib/Hubung.svelte'
   import Sewa from './lib/Sewa.svelte'
   import Footer from './lib/Footer.svelte'
   import Counter from './lib/Counter.svelte';
@@ -29,5 +30,9 @@
 {#if page=='5'}
 <Rakan/>
 {/if}
+{#if page=='7'}
+<Hubung/>
+{/if}
+
 </div>
-<div><br/><br/>©️ Lagenda Armada Sdn. Bhd. {#if (new Date()).getFullYear()>2022}2022-{/if}{(new Date()).getFullYear()}</div>
+<div><br/><br/>©️ Lagenda Armada Sdn. Bhd. (No. Pendaftaran 1398236-A) {#if (new Date()).getFullYear()>2022}2022-{/if}{(new Date()).getFullYear()}</div>
