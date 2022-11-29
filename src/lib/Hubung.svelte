@@ -1,11 +1,22 @@
 <style>
     a:visited,a:link{color:grey}
+    
 </style>
 
 
 <script>
+let email = 'shaharizal@lagendaarmada.com'
 
+let fmail = '';
     
+
+function loop(){
+    fmail = email.substring(0,fmail.length+1);
+    if(fmail.length!=email.length){
+        setTimeout(loop,100);
+    }
+}
+loop()
 
 </script>
 <div class="title is-4">
@@ -25,6 +36,6 @@ Rampai Business Park<br/>
 <br/><br/>
 <b>No. Telefon : </b>603-4131 7043
 <br/><br/>
-<b>E-mel : </b>Shahrizal80.sg@gmail.com
+<b>E-mel : {fmail}</b>
 </div></div>
 </div>
