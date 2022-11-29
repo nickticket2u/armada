@@ -6,6 +6,7 @@
   import Siap from './lib/Siap.svelte'
   import Mampu from './lib/Mampu.svelte'
   import Hubung from './lib/Hubung.svelte'
+  import Profil from './lib/Profil.svelte'
   import Sewa from './lib/Sewa.svelte'
   import Footer from './lib/Footer.svelte'
   import Counter from './lib/Counter.svelte';
@@ -29,6 +30,9 @@
 {/if}
 {#if page=='5'}
 <Rakan/>
+{/if}
+{#if page=='6'}
+<Profil/>
 {/if}
 {#if page=='7'}
 <Hubung/>
