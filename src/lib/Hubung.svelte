@@ -7,12 +7,15 @@
 <script>
 let email = 'shaharizal@lagendaarmada.com'
 
-let fmail = '';
-    
-
+let fmail = 'wwwwwwwwww@lagendaarmada.com';
+String.prototype.replaceAt = function(index, replacement) {
+    return this.substring(0, index) + replacement + this.substring(index + replacement.length);
+}
+let i = 0;
 function loop(){
-    fmail = email.substring(0,fmail.length+1);
-    if(fmail.length!=email.length){
+    fmail = fmail.replaceAt(i,email.charAt(i))
+    i++;
+    if(i<10){
         setTimeout(loop,100);
     }
 }
@@ -34,8 +37,9 @@ Jalan Rampai Niaga 4<br/>
 Rampai Business Park<br/>
 53300 WP Kuala Lumpur
 <br/><br/>
-<b>No. Telefon : </b>603-4131 7043
+<b>No. Telefon : </b><br/>603-4131 7043
 <br/><br/>
-<b>E-mel : {fmail}</b>
+<b>E-mel :</b><br/>
+{fmail}
 </div></div>
 </div>
