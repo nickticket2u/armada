@@ -66,7 +66,7 @@
             Rakan Strategik (PEMAJU)
           </a>            
 
-        <a class="navbar-item" href="/?page=6">
+        <a class="navbar-item" href="/">
           Profil Syarikat
         </a>
 
